@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -9,6 +10,7 @@
     /* align-items: center; */
     /* justify-content: center;
     flex-direction: column; */
+    background: #f6f6f6;
     position: relative;
 }
 
@@ -30,4 +32,22 @@ h1 {
     flex-direction: column;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+
+.search {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    font-size: 1.2em;
+    /* font-weight: 300; */
+    letter-spacing: .5px;
+    padding: 6px 10px;
+    width: 30vw;
+    color: #7b7b7b;
 }
