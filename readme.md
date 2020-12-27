@@ -11,3 +11,13 @@ https://snazzymaps.com
 ### Center resets when putting the marker
 
 ## Update marker icon
+
+Avoid firing the function on every render of application
+
+`usecallback`
+
+## Info window when click
+
+`formatRelative` time in relation to now
+
+`onCloseClick` to set selected to `null`
